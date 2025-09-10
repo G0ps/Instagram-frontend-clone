@@ -21,7 +21,7 @@ instagramclonereact/
 
 1. **Clone the repository**
    ```bash
-   git clone <your-repo-link>
+   git clone "https://github.com/G0ps/Instagram-frontend-clone"
    cd instagramclonereact
 ````
 
@@ -44,7 +44,7 @@ instagramclonereact/
    ```
 
 ---
-
+````
 ## 📌 Available Scripts
 
 * `npm run server` → starts JSON Server on [http://localhost:3000](http://localhost:3000)
@@ -60,8 +60,8 @@ instagramclonereact/
 This project was built by following a tutorial from YouTube.
 A big thanks to the creator for making the learning process easier ❤️
 
-* **YouTuber Name**: *\[Fill here]*
-* **Tutorial Link**: *\[Fill here]*
+* **YouTuber Name**: *\[CODE.io]*
+* **Tutorial Link**: *\[https://youtu.be/01bEb7R-F4s?si=Zi8LgJY85e1XpZ7l]*
 
 ---
 
