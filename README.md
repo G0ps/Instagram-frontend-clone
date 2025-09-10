@@ -1,9 +1,9 @@
-Instagram Clone (Practice Project)
+========================================================================================================================================
+## Instagram Clone (Practice Project)
 
 This is a **beginner-friendly practice project** where I built a simple Instagram frontend clone by following a tutorial from YouTube.  
 The project uses **React (frontend)** and **JSON Server (backend)** to simulate a basic Instagram-like experience.
-
----
+=========================================================================================================================================
 
 ## 🚀 Features
 - React-based frontend (with Vite)
@@ -19,10 +19,6 @@ instagramclonereact/
 ├── package.json       # contains scripts to run server & client
 
 ````
-
----
-```
-
 ## ⚙️ Setup Instructions
 
 1. **Clone the repository**
