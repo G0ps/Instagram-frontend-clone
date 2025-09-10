@@ -1,6 +1,7 @@
 import SideBar from "./sidebar.jsx"
 import Feed from "./Feed.jsx"
 import Suggestions from "./Suggestion.jsx"
+
 function App(){
     return (
         <>

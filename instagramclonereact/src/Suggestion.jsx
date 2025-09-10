@@ -1,10 +1,17 @@
 import { useEffect, useState } from "react"
+import axios from "axios"
 
 function Suggestions()
 {
 
     const [profile , setProfile] = useState(null);
     const [suggestions , setSuggestions] = useState([]);
+
+    const handleFollow = async(id , username) => {
+        axios.post("http://localhost:3000/followers" , {"id":id , "username" : username})
+        .then(alert("followed"))
+        .catch(error => console.log("error : ",error))
+    }
 
     useEffect(() => {
 
@@ -46,7 +53,7 @@ function Suggestions()
                                 return (
                                 <div className="d-flex" key={post.id}>
                                     {postGen(post)}
-                                    <small className="text-primary ms-auto">Follow</small>
+                                    <a className="text-primary ms-auto" onClick={() => {handleFollow(post.id , post.username)}}>Follow</a>
                                 </div>
                                 )
                             }
@@ -70,7 +77,7 @@ function suggestionGen(suggestion)
             <div className="d-flex">
                 <img className="rounded-circle dp" src={suggestion.profile_pic && suggestion.profile_pic}></img>
                 <h5>{suggestion.username && suggestion.username}</h5>
-                <small className="ms-auto">Switch</small>
+                <p className="ms-auto">Switch</p>
             </div>
     )
 }

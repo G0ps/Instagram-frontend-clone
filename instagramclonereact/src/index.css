@@ -39,3 +39,53 @@
 .suggestions .dp{
     margin-top : 0px !important;
 }
+
+.story-dp{
+    width : 40px;
+}
+
+.story_lane{
+    max-width: 100%;
+    white-space: nowrap;
+    scrollbar-width: none;     /* Firefox */
+    -ms-overflow-style: none;
+    max-height: 50px;
+}
+
+.gradient_border {
+  width : 45px;
+  height:45px;
+  display:flex;
+  align-items : center;
+  justify-content: center;
+  border-radius: 50%;
+  background : linear-gradient(45deg , #ff00ff , #ff6600 , #ffcc00);
+}
+
+
+.border-none{
+    border: none;
+    background: none;
+}
+
+.menu-btn {
+  display: flex;
+  align-items: center;
+  gap: 5px;              /* space between icon and text */
+  border: none;
+  background: none;
+  padding: 10px 15px;
+  text-align: left;
+  width: 100%;           /* full-width so text stays left */
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.menu-btn:hover {
+  background-color: #f0f0f0; /* highlight on hover */
+}
+
+.profile{
+    width: 50px;
+    height: 50px;
+}
