@@ -1,4 +1,3 @@
-```markdown
 # Instagram Clone (Practice Project)
 
 This is a **beginner-friendly practice project** where I built a simple Instagram frontend clone by following a tutorial from YouTube.  
@@ -14,22 +13,18 @@ The project uses **React (frontend)** and **JSON Server (backend)** to simulate 
 ---
 
 ## 📂 Project Structure
-```
-
 instagramclonereact/
 ├── db/                # contains db.json for JSON Server
 ├── src/               # React source code
 ├── package.json       # contains scripts to run server & client
 
-````
 
 ## ⚙️ Setup Instructions
 
 1. **Clone the repository**
-   ```bash
    git clone <your-repo-link>
    cd instagramclonereact
-````
+
 
 2. **Install dependencies (server + client)**
 
