@@ -66,10 +66,3 @@ A big thanks to the creator for making the learning process easier ❤️
 ---
 
 ```
-
----
-
-✅ Now you can copy the whole README in one tap.  
-
-Do you also want me to add a **"Screenshots" section** with placeholders so you can drop images later, or keep it minimal?
-```
