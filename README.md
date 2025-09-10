@@ -1,8 +1,4 @@
-Got it 👍 From now on, I’ll always give you **one-tap copy blocks** so you can copy the entire thing directly.
-
-Here’s your **final README.md** in one block 👇
-
-```markdown
+```
 # Instagram Clone (Practice Project)
 
 This is a **beginner-friendly practice project** where I built a simple Instagram frontend clone by following a tutorial from YouTube.  
@@ -17,9 +13,9 @@ The project uses **React (frontend)** and **JSON Server (backend)** to simulate 
 
 ---
 
-## 📂 Project Structure
 ```
-
+## 📂 Project Structure
+```bash
 instagramclonereact/
 ├── db/                # contains db.json for JSON Server
 ├── src/               # React source code
@@ -28,6 +24,7 @@ instagramclonereact/
 ````
 
 ---
+```
 
 ## ⚙️ Setup Instructions
 
