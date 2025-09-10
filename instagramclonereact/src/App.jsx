@@ -1,4 +1,4 @@
-import SideBar from "./Sidebar.jsx"
+import SideBar from "./SideBar.jsx"
 import Feed from "./Feed.jsx"
 import Suggestions from "./Suggestion.jsx"
 
