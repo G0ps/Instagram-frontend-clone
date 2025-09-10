@@ -1,18 +1,3 @@
-
-SETUP :
-===========================================================================================
-| npm run install:all → installs everything (client + json-server + concurrently) locally |
-| npm run setup → installs all deps and starts server+client                              |
-| npm start → runs both server + client in parallel                                       |
-===========================================================================================
-npm run server → runs json-server from db/db.json on port 3000
-npm run client → runs vite dev server
-
-
-Got it 👍 From now on, I’ll always give you **one-tap copy blocks** so you can copy the entire thing directly.
-
-Here’s your **final README.md** in one block 👇
-
 ```markdown
 # Instagram Clone (Practice Project)
 
