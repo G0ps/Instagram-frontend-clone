@@ -13,11 +13,12 @@ The project uses **React (frontend)** and **JSON Server (backend)** to simulate 
 ---
 
 ## 📂 Project Structure
+ ```bash
 instagramclonereact/
 ├── db/                # contains db.json for JSON Server
 ├── src/               # React source code
 ├── package.json       # contains scripts to run server & client
-
+```
 
 ## ⚙️ Setup Instructions
 
