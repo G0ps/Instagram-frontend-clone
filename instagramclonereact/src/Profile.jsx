@@ -9,11 +9,11 @@ function Profile()
     const [Unfollowed , setUnFollowed] = useState(0);
 
     useEffect(()=>{
-        axios.get('https://instagram-frontend-clone-3.onrender.com/profile')
+        axios.get('https://instagram-frontend-clone-7.onrender.com/profile')
         .then(data => {setProfile(data.data)})
         .catch(error => {console.log(error , " : error")})
 
-        axios.get("https://instagram-frontend-clone-3.onrender.com/followers")
+        axios.get("https://instagram-frontend-clone-7.onrender.com/followers")
         .then(data => setFollowers(data.data))
         .then(setUnFollowed(!Unfollowed))
         .catch(error => {console.log(error , " : error")})
@@ -29,12 +29,12 @@ function Profile()
     }
 
     const handleUpdate = async() => {
-        axios.put("https://instagram-frontend-clone-3.onrender.com/profile" , profile)
+        axios.put("https://instagram-frontend-clone-7.onrender.com/profile" , profile)
         .then(console.log("updated"))
         .error(error => {console.log(error , " : error")})
     }
     const handleUnfollow = async(id) => {
-        axios.delete(`https://instagram-frontend-clone-3.onrender.com/followers/${id}`)
+        axios.delete(`https://instagram-frontend-clone-7.onrender.com/followers/${id}`)
         .then(alert("Unfollowed"))
         .error(error => console.log("error : " , error))
     }

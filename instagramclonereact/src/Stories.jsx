@@ -8,7 +8,7 @@ function Stories() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch("https://instagram-frontend-clone-3.onrender.com/stories")
+    fetch("https://instagram-frontend-clone-7.onrender.com/stories")
       .then((res) => res.json())
       .then((data) => setStories(data))
       .catch(() => setError("Failed to load stories"))

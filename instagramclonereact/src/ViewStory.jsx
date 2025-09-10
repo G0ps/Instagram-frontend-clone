@@ -8,7 +8,7 @@ function ViewStory() {
 
   // Fetch story on id change
   useEffect(() => {
-    fetch(`https://instagram-frontend-clone-3.onrender.com/stories/${id}`)
+    fetch(`https://instagram-frontend-clone-7.onrender.com/stories/${id}`)
       .then((res) => res.json())
       .then((data) => setStory(data))
       .catch((error) => console.log("error : ", error));

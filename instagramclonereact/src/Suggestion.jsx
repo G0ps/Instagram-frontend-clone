@@ -8,19 +8,19 @@ function Suggestions()
     const [suggestions , setSuggestions] = useState([]);
 
     const handleFollow = async(id , username) => {
-        axios.post("https://instagram-frontend-clone-3.onrender.com/followers" , {"id":id , "username" : username})
+        axios.post("https://instagram-frontend-clone-7.onrender.com/followers" , {"id":id , "username" : username})
         .then(alert("followed"))
         .catch(error => console.log("error : ",error))
     }
 
     useEffect(() => {
 
-        fetch("https://instagram-frontend-clone-3.onrender.com/profile")
+        fetch("https://instagram-frontend-clone-7.onrender.com/profile")
         .then(data => data.json())
         .then(data => setProfile(data))
         .catch(error => console.log("Error : " , error)) 
 
-        fetch("https://instagram-frontend-clone-3.onrender.com/suggestions")
+        fetch("https://instagram-frontend-clone-7.onrender.com/suggestions")
         .then(data => data.json())
         .then(data => setSuggestions(data))
         .catch(error => console.log("error" , error))
