@@ -23,23 +23,25 @@ instagramclonereact/
 ## ⚙️ Setup Instructions
 
 1. **Clone the repository**
+2. ```
    git clone <your-repo-link>
    cd instagramclonereact
+   ```
 
 
-2. **Install dependencies (server + client)**
+3. **Install dependencies (server + client)**
 
    ```bash
    npm run install:all
    ```
 
-3. **Start both backend (JSON Server) and frontend (React)**
+4. **Start both backend (JSON Server) and frontend (React)**
 
    ```bash
    npm start
    ```
 
-4. **Alternative: full setup in one command**
+5. **Alternative: full setup in one command**
 
    ```bash
    npm run setup
