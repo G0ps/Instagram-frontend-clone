@@ -2,10 +2,8 @@
 This is a **beginner-friendly practice project** where I built a simple Instagram frontend clone by following a tutorial from YouTube.  
 The project uses **React (frontend)** and **JSON Server (backend)** to simulate a basic Instagram-like experience.
 =========================================================================================================================================
-```
-TRY HERE : https://clientagram.netlify.app/
-=========================================================================================================================================
-```
+
+# **TRY HERE** : *\ https://clientagram.netlify.app/*
 
 ## 🚀 Features
 - React-based frontend (with Vite)
@@ -65,7 +63,7 @@ This project was built by following a tutorial from YouTube.
 A big thanks to the creator for making the learning process easier ❤️
 
 * **YouTuber Name**: *\[CODE.io]*
-* **Tutorial Link**: *\[https://youtu.be/01bEb7R-F4s?si=Zi8LgJY85e1XpZ7l]*
+* **Tutorial Link**: *\https://youtu.be/01bEb7R-F4s?si=Zi8LgJY85e1XpZ7l*
 
 ---
 
