@@ -6,7 +6,7 @@ function SideBar(){
     return (
         <>
             <div className="d-flex flex-column gap-3 position-fixed">
-                <img className="logo-text" src="./src/assets/instagramTextTitle.png" alt="TEXT" />
+                <img className="logo-text" src="./assets/instagramTextTitle.jpeg" alt="TEXT" />
                 <div className="d-flex flex-column">
                     <button className="menu-btn" onClick={() => navigate("/")}>
                         <i className="bi bi-house"></i> Home
